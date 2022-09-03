@@ -1,0 +1,352 @@
+* {
+    box-sizing: border-box;
+  }
+  
+.yoko {
+    position: absolute;
+top: 11em;
+left: 11em;
+                                        display: flex;
+                                        overflow-x: scroll;
+                                        text-align: center;
+                                        max-width: 1500px;
+                                        margin: 0 auto;
+                                        padding-left: 4em;
+                                    }
+                                    
+                                    .yoko img {
+                                        max-width: 1170px;
+                                        width: 20em;
+                                        padding: 0.2em;
+                                    }
+                                    
+                                    header {
+                                        height: 101px;
+                                        width: 100%;
+                                        background-color: #000;
+                                        position: fixed;
+                                        top: 0;
+                                        z-index: 5;
+                                        float: left;
+                                        opacity: 0.35;
+                                    }
+                                    
+                                    .logo {
+                                        width: 180px;
+                                        background-color: rgba(255, 255, 255, 0.5);
+                                        cursor: pointer;
+                                    }
+                                    
+                                    .logo:hover {
+                                        opacity: 0.5;
+                                    }
+                                    
+                                    .leftmenu {
+                                        position: fixed;
+                                        float: left;
+                                        left: 0px;
+                                        top: 0px;
+                                        background-color: #333;
+                                        width: 180px;
+                                        height: 2000px;
+                                        z-index: 10;
+                                    }
+                                    
+                                    .container {
+                                        width: 1440px;
+                                        padding: 0 15px;
+                                        margin: 0 auto;
+                                        font-size: small;
+                                    }
+                                    
+                                    .top-wrapper {
+                                        position: absolute;
+                                        left: 14.5em;
+                                        top: 9em;
+                                                                        }
+                                    
+                                    
+                                    ul {
+                                        list-style: none;
+                                        font-size: small;
+                                        padding-top: 5px;
+                                        padding-left: 30px;
+                                    }
+                                    
+                                    li {
+                                        padding: 10px;
+                                        cursor: pointer;
+                                    }
+                                    
+                                    li a:hover {
+                                        color: #808080;
+                                    }
+                                    
+                                    ul a {
+                                        color: darkgray;
+                                        display: block;
+                                        text-decoration: none;
+                                    }
+                                    
+                                    .place {
+                                        height: 500px;
+                                        padding-bottom: 80px;
+                                    }
+
+                                    .place2{
+                                        position: absolute;
+                                        left: 19em;
+                                        top: 60em;
+                                    }
+                                    
+                                    .heading {
+                                        padding-top: 300px;
+                                        color: #5f5d60;
+                                    }
+                                    
+                                    .heading h2 {
+                                        font-weight: normal;
+                                        font-size: small;
+                                    }
+                                    
+                                    .txt-contents a {
+                                        width: 80%;
+                                        font-size: 12px;
+                                        color: darkgray;
+                                        text-decoration: none;
+                                    }
+                                    
+                                    .lesson-icon {
+                                        padding-left: 4px;
+                                    }
+                                    
+                                    .txt-contents a:hover {
+                                        color: #5f5d60;
+                                    }
+                                    
+                                    .lesson a {
+                                        position: relative;
+                                    }
+                                    
+                                
+                                        .lesson1 a:after {
+                                            content: "";
+                                            position: absolute;
+                                            top: -75px;
+                                            left: 260px;
+                                            display: inline-block;
+                                            pointer-events: none;
+                                            width: 260px;
+                                            height: 260px;
+                                            background: url(IMG_4187.jpg);
+                                            background-size: contain;
+                                            background-repeat: no-repeat;
+                                            background-position: center top;
+                                            opacity: 0;
+                                            transition: all .5s ease;
+                                        }
+                                        .lesson2 a:after {
+                                            content: "";
+                                            position: absolute;
+                                            top: -115px;
+                                            left: 260px;
+                                            display: inline-block;
+                                            pointer-events: none;
+                                            width: 260px;
+                                            height: 260px;
+                                            background: url(IMG_4188.jpg);
+                                            background-size: contain;
+                                            background-repeat: no-repeat;
+                                            background-position: center top;
+                                            opacity: 0;
+                                            transition: all .5s ease;
+                                        }
+                                        .lesson3 a:after {
+                                            content: "";
+                                            position: absolute;
+                                            top: -145px;
+                                            left: 260px;
+                                            display: inline-block;
+                                            pointer-events: none;
+                                            width: 260px;
+                                            height: 260px;
+                                            background: url(IMG_4189.jpg);
+                                            background-size: contain;
+                                            background-repeat: no-repeat;
+                                            background-position: center top;
+                                            opacity: 0;
+                                            transition: all .5s ease;
+                                        }
+                                        .lesson4 a:after {
+                                            content: "";
+                                            position: absolute;
+                                            top: -180px;
+                                            left: 260px;
+                                            display: inline-block;
+                                            pointer-events: none;
+                                            width: 260px;
+                                            height: 260px;
+                                            background: url(IMG_4190.jpg);
+                                            background-size: contain;
+                                            background-repeat: no-repeat;
+                                            background-position: center top;
+                                            opacity: 0;
+                                            transition: all .5s ease;
+                                        }
+                                        .lesson1 a:hover:after {
+                                            opacity: 1;
+                                        }
+                                        .lesson2 a:hover:after {
+                                            opacity: 1;
+                                        }
+                                        .lesson3 a:hover:after {
+                                            opacity: 1;
+                                        }
+                                        .lesson4 a:hover:after {
+                                            opacity: 1;
+                                        }
+                                        .map1 {
+                                            display: none;
+                                            position: absolute;
+                                            top: 1070px;
+                                            left: 770px;
+                                        }
+                                        .map2 {
+                                            display: none;
+                                            position: absolute;
+                                            top: 1070px;
+                                            left: 770px;
+                                        }
+                                        .map3 {
+                                            display: none;
+                                            position: absolute;
+                                            top: 1070px;
+                                            left: 770px;
+                                        }
+                                        .map4 {
+                                            display: none;
+                                            position: absolute;
+                                            top: 1070px;
+                                            left: 770px;
+                                        }
+                                        .store {
+                                            position: absolute;
+                                            top: 145.5em;
+                                            left: 19em;
+                                                                                        letter-spacing: 0.2em;
+                                        }
+                                        .store h2 {
+                                            font-size: 100%;
+                                            padding: 0 0 0 4px;
+                                            color: #4c4c4c;
+                                        }
+                                        .store h3 {
+                                            font-size: 50%;
+                                            color: gray;
+                                        }
+                                        .store2 {
+                                            position: absolute;
+                                            top: 145.5em;
+                                            left: 49em;
+                                            letter-spacing: 0.2em;
+                                        }
+                                        .store2 h2 {
+                                            font-size: 100%;
+                                            padding: 0 0 0 4px;
+                                            color: #4c4c4c;
+                                        }
+                                        .store2 h3 {
+                                            font-size: 50%;
+                                            color: gray;
+                                        }
+                                        .map5 {
+                                            position: absolute;
+                                            top: 119em;
+                                            left: 64em;
+                                        }
+                                        .yoko2 {
+                                            display: flex;
+                                            overflow-x: scroll;
+                                            text-align: center;
+                                            max-width: 1010px;
+                                            margin: 0 auto;
+                                            padding-left: 4em;
+                                            position: absolute;
+                                            top: 136.5em;
+                                            left: 11em;
+                                        }
+                                        .yoko2 img {
+                                            width: 35vw;
+                                            padding: 2vw;
+                                        }
+                                        @media only screen and (min-device-width: 1000px) {
+                                            .yoko2 img {
+                                                width: 540px;
+                                                padding: 0.2em;
+                                            }
+                                        }
+                                        .store3 {
+                                            position: absolute;
+                                            top: 190em;
+                                            left: 15em;
+                                            letter-spacing: 0.2em;
+                                        }
+                                        .store3 h2 {
+                                            font-size: 75%;
+                                            padding: 0 0 0 4px;
+                                            color: #4c4c4c;
+                                        }
+                                        .store3 h3 {
+                                            font-size: 50%;
+                                            color: gray;
+                                            padding-top: 20PX;
+                                        }
+                                        .store4 {
+                                            position: absolute;
+                                            top: 190em;
+                                            left: 40em;
+                                            letter-spacing: 0.2em;
+                                        }
+                                        .store4 h2 {
+                                            font-size: 75%;
+                                            padding: 0 0 0 4px;
+                                            color: #4c4c4c;
+                                        }
+                                        .store4 h3 {
+                                            font-size: 50%;
+                                            color: gray;
+                                        }
+                                        .store5 {
+                                            position: absolute;
+                                            top: 190em;
+                                            left: 65em;
+                                            letter-spacing: 0.2em;
+                                        }
+                                        .store5 h2 {
+                                            font-size: 75%;
+                                            padding: 0 0 0 4px;
+                                            color: #4c4c4c;
+                                        }
+                                        .store5 h3 {
+                                            font-size: 50%;
+                                            color: gray;
+                                        }
+                                        footer {
+                                            padding-top: 3500px;
+                                           }
+
+                                           .answer {
+                                            font-size: 12px;
+                                            padding: 0px 20px;
+                                          display: none;
+                                          color: darkgray;
+                                          cursor: pointer;
+                                        }
+
+                                        .answer:hover {
+                                            color: #808080;
+                                        }
+
+                                        .clear {
+                                            clear: left;
+                                          }
